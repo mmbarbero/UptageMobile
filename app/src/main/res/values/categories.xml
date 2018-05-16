@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="cat_prompt">Choose a category</string>
+
+    <string-array name="categories_array">
+        <item>Animals</item>
+        <item>Politics</item>
+        <item>Entertainment</item>
+        <item>Crime</item>
+        <item>Accidents</item>
+        <item>Weather/Nature</item>
+        <item>Sport</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>
