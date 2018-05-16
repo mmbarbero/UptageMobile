@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
         RequestParams rp = new RequestParams();
         rp.add("username", username); rp.add("password",password);
 
-        HttpUtils.post("/login/api/", rp, new JsonHttpResponseHandler(){
+        HttpUtils.post("/api/login", rp, new JsonHttpResponseHandler(){
 
             @Override
             public void onSuccess(int statusCode, cz.msebera.android.httpclient.Header[] headers, JSONObject response) {
